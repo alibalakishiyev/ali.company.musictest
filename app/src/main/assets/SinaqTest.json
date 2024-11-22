@@ -1,0 +1,338 @@
+{
+  "sinaqtest1":[
+    {
+    "question": "Hansi bəstəkar \"Yeddi Gözəl\" baletinin müəllifidir?",
+    "answer1": "A)Fikrət Əmirov",
+    "answer2": "B)Üzeyir Hacıbəyov",
+    "answer3": "C)Qara Qarayev",
+    "answer4": "D)Niyazi",
+    "correct": "C)Qara Qarayev"
+    },
+    {
+      "question": "Für Elise\" adlı əsəri kim bəstələmişdir?",
+      "answer1": "A)Johann Sebastian Bach",
+      "answer2": "B)Ludwig van Beethoven",
+      "answer3": "C)Wolfgang Amadeus Mozart",
+      "answer4": "D)Franz Schubert",
+      "correct": "C)Ludwig van Beethoven"
+    },
+    {
+      "question": "Azərbaycan Milli Konservatoriyası hansı il yaradılmışdır?",
+      "answer1": "A)1991",
+      "answer2": "B)1994",
+      "answer3": "C)2000",
+      "answer4": "D)2003",
+      "correct": "D)2003"
+    },
+    {
+      "question": "Hansı musiqi janrı adətən vokal və instrumental hissələrə malik olur?",
+      "answer1": "A)Caz",
+      "answer2": "B)Simfoniya",
+      "answer3": "C)Opera",
+      "answer4": "D)Balet",
+      "correct": "C)Opera"
+    },
+    {
+      "question": "Alla Turca\" hansı məşhur bəstəkarın əsəridir?",
+      "answer1": "A)Antonio Vivaldi",
+      "answer2": "B)Ludwig van Beethoven",
+      "answer3": "C)Wolfgang Amadeus Mozart",
+      "answer4": "D)Johann Strauss",
+      "correct": "C)Wolfgang Amadeus Mozart"
+    },
+    {
+      "question": "Hansı alət simli alət deyil?",
+      "answer1": "A)Qarmon",
+      "answer2": "B)Tar",
+      "answer3": "C)Kamança",
+      "answer4": "D)Ud",
+      "correct": "A)Qarmon"
+    },
+    {
+      "question": "Aşağıdakılardan hansı Stream API ilə parallelStream() istifadəsi üçün doğrudur?",
+      "answer1": "A)Həmişə daha sürətli performans təmin edir",
+      "answer2": "B)Multi-core prosessorlarda paralel işləməni təmin edir",
+      "answer3": "C)Hər zaman sıralı əməliyyat üçün uyğundur",
+      "answer4": "D)Düzgün nəticə üçün heç bir əlavə təlimat tələb etmir",
+      "correct": "B)Multi-core prosessorlarda paralel işləməni təmin edir"
+    },
+    {
+      "question": "Azərbaycanın milli marşı olan \"Azərbaycan marşı\"nın musiqisini kim bəstələmişdir?",
+      "answer1": "A)Qara Qarayev",
+      "answer2": "B)Cövdət Hacıyev",
+      "answer3": "C)Üzeyir Hacıbəyov",
+      "answer4": "D)Müslüm Maqomayev",
+      "correct": "C)Üzeyir Hacıbəyov"
+    },
+    {
+      "question": "Hansı bəstəkar Azərbaycan cazının inkişafında mühüm rol oynamışdır?",
+      "answer1": "A)Vaqif Mustafazadə",
+      "answer2": "B)Fikrət Əmirov",
+      "answer3": "C)Qara Qarayev",
+      "answer4": "D)Arif Məlikov",
+      "correct": "A)Vaqif Mustafazadə"
+    },
+    {
+      "question": "Piano əsasında yaradılmış ilk musiqi əsərlərindən biri olan \"Piano Sonatı No. 14\" adlı əsəri kim bəstələmişdir?",
+      "answer1": "A)Franz Liszt",
+      "answer2": "B)Frédéric Chopin",
+      "answer3": "C)Ludwig van Beethoven",
+      "answer4": "D)Johann Sebastian Bach",
+      "correct": "C)Ludwig van Beethoven"
+    }
+  ],
+
+  "sinaqtest2":[
+    {
+    "question": "\"Carmen\" adlı opera kimə məxsusdur?",
+    "answer1": "A)Giuseppe Verdi",
+    "answer2": "B)Georges Bizet",
+    "answer3": "C)Wolfgang Amadeus Mozart",
+    "answer4": "D)Richard Wagner",
+    "correct": "B)Georges Bizet"
+    },
+    {
+      "question": "Hansı musiqi aləti \"aerofon\" qrupuna aiddir?",
+      "answer1": "A)Klarnet",
+      "answer2": "B)Piano",
+      "answer3": "C)Gitar",
+      "answer4": "D)Saz",
+      "correct": "C)Klarnet"
+    },
+    {
+      "question": "\"Für Elise\" əsərinin tonaliteyi hansıdır?",
+      "answer1": "A)Do minor",
+      "answer2": "B)Do major",
+      "answer3": "C)Re minor",
+      "answer4": "D)Fa major",
+      "correct": "B)Do major"
+    },
+    {
+      "question": "Hansı musiqi bəstəkarı \"Simfoniya No. 9\" (Özümün Vətənim) əsərini bəstələmişdir?",
+      "answer1": "A)Ludwig van Beethoven",
+      "answer2": "B)Johannes Brahms",
+      "answer3": "C)Hector Berlioz",
+      "answer4": "D)Franz Schubert",
+      "correct": "A)Ludwig van Beethoven"
+    },
+    {
+      "question": "\"La Traviata\" adlı opera kimə aiddir?",
+      "answer1": "A)Giuseppe Verdi",
+      "answer2": "B)Giacomo Puccini",
+      "answer3": "C)Richard Wagner",
+      "answer4": "D)Wolfgang Amadeus Mozart",
+      "correct": "A)Giuseppe Verdi"
+    },
+    {
+      "question": "Hansı məşhur bəstəkar \"Uvertür\" adlı əsəri ilə tanınır?",
+      "answer1": "A)Johann Strauss",
+      "answer2": "B)Richard Strauss",
+      "answer3": "C)Ludwig van Beethoven",
+      "answer4": "D)Franz Schubert",
+      "correct": "C)Ludwig van Beethoven"
+    },
+    {
+      "question": "Hansı janrı \"improvisasiya\"ya əsaslanır?",
+      "answer1": "A)Caz",
+      "answer2": "B)Opera",
+      "answer3": "C)Sinfoniya",
+      "answer4": "D)Barok",
+      "correct": "A)Caz"
+    },
+    {
+      "question": "Hansı alət \"qeyri-simli\" (perkusiv) alət qrupuna aiddir?",
+      "answer1": "A)Kamança",
+      "answer2": "B)Zurna",
+      "answer3": "C)Davul",
+      "answer4": "D)Xüsusi alət",
+      "correct": "C)Davul"
+    },
+    {
+      "question": "\"Piano Sonata No. 16\" kimə məxsusdur?",
+      "answer1": "A)Frédéric Chopin",
+      "answer2": "B)Wolfgang Amadeus Mozart",
+      "answer3": "C)Johann Sebastian Bach",
+      "answer4": "D)Ludwig van Beethoven",
+      "correct": "B)Wolfgang Amadeus Mozart"
+    },
+    {
+      "question": "Hansı musiqi bəstəkarı \"Simfoniya No. 3\" (Eroica) ilə məşhurdur?",
+      "answer1": "A)Johannes Brahms",
+      "answer2": "B)Franz Schubert",
+      "answer3": "C)Ludwig van Beethoven",
+      "answer4": "D)Hector Berlioz",
+      "correct": "C)Ludwig van Beethoven"
+    }
+  ],
+
+  "sinaqtest3":[
+    {
+      "question": "Hansı musiqi bəstəkarı \"Requiem\" əsərini yazmışdır?",
+      "answer1": "A)Wolfgang Amadeus Mozart",
+      "answer2": "B)Ludwig van Beethoven",
+      "answer3": "C)Giuseppe Verdi",
+      "answer4": "D)Franz Schubert",
+      "correct": "A)Wolfgang Amadeus Mozart"
+    },
+    {
+      "question": "Hansı bəstəkar \"Sənsiz\" adlı məşhur mahnını bəstələyib?",
+      "answer1": "A)Üzeyir Hacıbəyov",
+      "answer2": "B)Fikrət Əmirov",
+      "answer3": "C)Qara Qarayev",
+      "answer4": "D)Müslüm Maqomayev",
+      "correct": "A)Üzeyir Hacıbəyov"
+    },
+    {
+      "question": "Hansının ən məşhur musiqisi \"Lokal Ara\"dır?",
+      "answer1": "A)Rəşid Behbudov",
+      "answer2": "B)Alim Qasimov",
+      "answer3": "C)Rahil Quliyev",
+      "answer4": "D)Tofiq Quliyev",
+      "correct": "B)Alim Qasimov"
+    },
+    {
+      "question": "\"Sarı Gəlin\" mahnısının mətni hansı müğənni tərəfindən yazılmışdır?",
+      "answer1": "A)Musa Mirzəyev",
+      "answer2": "B)Baba Tuncer",
+      "answer3": "C)Sevim Dalkılıç",
+      "answer4": "D)Adnan Yılmaz",
+      "correct": "A)Musa Mirzəyev"
+    },
+    {
+      "question": "Hansı bəstəkar \"Yeddi Gözəl\" baletini bəstələmişdir?",
+      "answer1": "A)Fikrət Əmirov",
+      "answer2": "B)Üzeyir Hacıbəyov",
+      "answer3": "C)Qara Qarayev",
+      "answer4": "D)Mikayıl Müşfiq",
+      "correct": "C)Qara Qarayev"
+    },
+    {
+      "question": "Hansının musiqisi \"Çoban Qızı\" bəstələnmişdir?",
+      "answer1": "A)Rasim Qaraca",
+      "answer2": "B)Fikrət Əmirov",
+      "answer3": "C)Müslüm Maqomayev",
+      "answer4": "D)Cavanşir Quliyev",
+      "correct": "B)Fikrət Əmirov"
+    },
+    {
+      "question": "\"Şəki\" mahnısının bəstəkarı kimdir?",
+      "answer1": "A)Arif Məlikov",
+      "answer2": "B)Fikrət Əmirov",
+      "answer3": "C)Elza Seyidcahan",
+      "answer4": "D)Musa Yaqub",
+      "correct": "A)Arif Məlikov"
+    },
+    {
+      "question": "\"Bəs kimdir\" mahnısının müğənnisi kimdir?",
+      "answer1": "A)Ələkbər Tofiqoğlu",
+      "answer2": "B)Rafik Hüseynov",
+      "answer3": "C)Müslüm Maqomayev",
+      "answer4": "D)Flora Kərimova",
+      "correct": "D)Flora Kərimova"
+    },
+    {
+      "question": "\"Bir Ömürlük\" adlı mahnının ifaçısı kimdir?",
+      "answer1": "A)Tarkan",
+      "answer2": "B)Fərhad Bədəlbəyli",
+      "answer3": "C)Nadir Qafarzadə",
+      "answer4": "D)Rəşad İlyasov",
+      "correct": "B)Fərhad Bədəlbəyli"
+    },
+    {
+      "question": "\"Söz vermişdim\" adlı populyar mahnı hansı müğənninin ifasında məşhur olub?",
+      "answer1": "A)Sevil Sadıqova",
+      "answer2": "B)Müslüm Maqomayev",
+      "answer3": "C)Arif Məlikov",
+      "answer4": "D)Zeynəb Xanlarova",
+      "correct": "B)Müslüm Maqomayev"
+    }
+
+  ],
+
+  "sinaqtest4":[
+
+    {
+      "question": "Hansı bəstəkarın \"Qəbələ\" simfoniyası məşhurdur?",
+      "answer1": "A)Üzeyir Hacıbəyov",
+      "answer2": "B)Arif Məlikov",
+      "answer3": "C)Fikrət Əmirov",
+      "answer4": "D)Elnur Hüseynov",
+      "correct": "B)Arif Məlikov"
+    },
+    {
+      "question": "\"Köçkün\" adlı mahnının bəstəkarı kimdir?",
+      "answer1": "A)Fikrət Əmirov",
+      "answer2": "B)Üzeyir Hacıbəyov",
+      "answer3": "C)Qara Qarayev",
+      "answer4": "D)Arif Məlikov",
+      "correct": "C)Qara Qarayev"
+    },
+    {
+      "question": "\"Azərbaycan\" adlı mahnının sözləri kimə aiddir?",
+      "answer1": "A)Mikayıl Müşfiq",
+      "answer2": "B)Həsən bəy Zərdabi",
+      "answer3": "C)Məmməd Araz",
+      "answer4": "D)Hüseyn Cavid",
+      "correct": "C)Məmməd Araz"
+    },
+    {
+      "question": "Ludwig van Beethoven'in hansı simfoniyası \"Choral\" adı ilə tanınır?",
+      "answer1": "A)Simfoniya No.5",
+      "answer2": "B)Simfoniya No.9",
+      "answer3": "C)Simfoniya No.3",
+      "answer4": "D)Simfoniya No.6",
+      "correct": "A)Simfoniya No.9"
+    },
+    {
+      "question": "Hansının musiqisi \"Qarabağ şikəstəsi\"dir?",
+      "answer1": "A)Fikrət Əmirov",
+      "answer2": "B)Rəşid Behbudov",
+      "answer3": "C)Alim Qasimov",
+      "answer4": "D)Rasim Qaraca",
+      "correct": "B)Rəşid Behbudov"
+    },
+    {
+      "question": "\"İçimdə bir aləm\" mahnısının ifaçısı kimdir?",
+      "answer1": "A)Sevda Ələkbərzadə",
+      "answer2": "B)Nigar Camal",
+      "answer3": "C)Rəşad İlyasov",
+      "answer4": "D)Flora Kərimova",
+      "correct": "A)Sevda Ələkbərzadə"
+    },
+    {
+      "question": "Johann Sebastian Bach’ın \"Brandenburg Konsertləri\" neçə konsertdən ibarətdir?",
+      "answer1": "A)4",
+      "answer2": "B)6",
+      "answer3": "C)3",
+      "answer4": "D)5",
+      "correct": "A)6"
+    },
+    {
+      "question": "Fryderyk Chopin ən çox hansı alətdə əsərlər yazmışdır?",
+      "answer1": "A)Skripka",
+      "answer2": "B)Fortepiano",
+      "answer3": "C)Çello",
+      "answer4": "D)Klarinet",
+      "correct": "B)Fortepiano"
+    },
+    {
+      "question": "\"La Traviata\" operası kim tərəfindən bəstələnmişdir?",
+      "answer1": "A)Giuseppe Verdi",
+      "answer2": "B)Richard Wagner",
+      "answer3": "C)Georges Bizet",
+      "answer4": "D)Giacomo Puccini",
+      "correct": "A)Giuseppe Verdi"
+    },
+    {
+      "question": "Richard Wagner'in məşhur \"Tristan və İzolda\" operası hansı janra aiddir?",
+      "answer1": "A)Barok musiqisi",
+      "answer2": "B)Romantik opera",
+      "answer3": "C)Klasik simfoniya",
+      "answer4": "D)Minimalizm",
+      "correct": "B)Romantik opera"
+    }
+
+
+  ]
+
+}
