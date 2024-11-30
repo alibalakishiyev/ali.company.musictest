@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -17,9 +18,11 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.android.material.button.MaterialButton;
 
+import java.util.ArrayList;
+
 public class ResultActivity extends AppCompatActivity {
     MaterialButton home;
-    TextView correctt, wrongt, resultinfo, resultscore,wrongAnswersText;
+    TextView correctt, wrongt, resultinfo, resultscore,correcttAnswersText;
     ImageView resultImage;
     public static int checked;
 
@@ -67,6 +70,7 @@ public class ResultActivity extends AppCompatActivity {
         resultinfo = findViewById(R.id.resultInfo);
         resultscore = findViewById(R.id.resultScore);
         resultImage = findViewById(R.id.resultImage);
+        correcttAnswersText = findViewById(R.id.correctAnswer);
 
 
 
@@ -97,7 +101,18 @@ public class ResultActivity extends AppCompatActivity {
             resultImage.setImageResource(R.drawable.ic_smile);
         }
 
+        ArrayList<String> correctAnswersList = getIntent().getStringArrayListExtra("correctAnswersList");
+        Log.d("ResultActivity", "Correct Answers List: " + correctAnswersList);
+        if (correctAnswersList != null && !correctAnswersList.isEmpty()) {
+            StringBuilder correctAnswers = new StringBuilder();
+            for (String answer : correctAnswersList) {
+                correctAnswers.append(answer).append("\n\n");
+            }
 
+            correcttAnswersText.setText(correctAnswers.toString());
+        } else {
+            correcttAnswersText.setText("Səhv cavab yoxdur.");
+        }
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override

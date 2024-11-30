@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public static int checked;
     private AdView mAdView;
     private InterstitialAd mInterstitialAd;
-    private MusicService musicService;
+    private MediaPlayer mediaPlayer;
 
 
     @Override
@@ -46,10 +46,14 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         loadInterstitialAd();
-        showInterstitialAd();
+
 
         Intent intent = new Intent(this, MusicService.class);
         startService(intent);
+
+
+
+
 
 
         SharedPreferences sharedPreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
@@ -121,8 +125,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         getOnBackPressedDispatcher().addCallback(this, callback);
     }
+
+
 
 
     private void loadInterstitialAd() {
@@ -171,8 +179,9 @@ public class MainActivity extends AppCompatActivity {
             materialAlertDialogBuilder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int i) {
+                    mediaPlayer.stop();
                     finish();
-                    musicService.onDestroy();
+
 
                 }
             });

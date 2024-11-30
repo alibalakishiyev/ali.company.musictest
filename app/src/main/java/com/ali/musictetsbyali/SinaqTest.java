@@ -45,9 +45,9 @@ public class SinaqTest extends AppCompatActivity {
     private static final int MAX_QUESTIONS = 10;
     int currentQuestions = 0;
     int correct = 0, wrong = 0;
-    Intent intent;
     public static int checked;
     private InterstitialAd mInterstitialAd;
+    List<String> correctAnswersList = new ArrayList<>();
 
 
     @Override
@@ -109,6 +109,7 @@ public class SinaqTest extends AppCompatActivity {
             public void onClick(View v) {
                 if (quesitionsItems.get(currentQuestions).getAnswer1().equals(quesitionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
+                    correctAnswersList.add(quesitionsItems.get(currentQuestions).getAnswer1());
                     aans.setBackgroundResource(R.color.green);
                     aans.setTextColor(getResources().getColor(R.color.white));
                 } else {
@@ -130,6 +131,7 @@ public class SinaqTest extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(SinaqTest.this, ResultActivity.class);
+                    intent.putStringArrayListExtra("correctAnswersList", (ArrayList<String>) correctAnswersList);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -143,6 +145,7 @@ public class SinaqTest extends AppCompatActivity {
             public void onClick(View v) {
                 if (quesitionsItems.get(currentQuestions).getAnswer2().equals(quesitionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
+                    correctAnswersList.add(quesitionsItems.get(currentQuestions).getAnswer2());
                     bans.setBackgroundResource(R.color.green);
                     bans.setTextColor(getResources().getColor(R.color.white));
                 } else {
@@ -166,6 +169,7 @@ public class SinaqTest extends AppCompatActivity {
                     Intent intent = new Intent(SinaqTest.this, ResultActivity.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
+                    intent.putStringArrayListExtra("correctAnswersList", (ArrayList<String>) correctAnswersList);
                     startActivity(intent);
                     finish();
                 }
@@ -177,6 +181,7 @@ public class SinaqTest extends AppCompatActivity {
             public void onClick(View v) {
                 if (quesitionsItems.get(currentQuestions).getAnswer3().equals(quesitionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
+                    correctAnswersList.add(quesitionsItems.get(currentQuestions).getAnswer3());
                     cans.setBackgroundResource(R.color.green);
                     cans.setTextColor(getResources().getColor(R.color.white));
                 } else {
@@ -200,6 +205,7 @@ public class SinaqTest extends AppCompatActivity {
                     Intent intent = new Intent(SinaqTest.this, ResultActivity.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
+                    intent.putStringArrayListExtra("correctAnswersList", (ArrayList<String>) correctAnswersList);
                     startActivity(intent);
                     finish();
                 }
@@ -211,6 +217,7 @@ public class SinaqTest extends AppCompatActivity {
             public void onClick(View v) {
                 if (quesitionsItems.get(currentQuestions).getAnswer4().equals(quesitionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
+                    correctAnswersList.add(quesitionsItems.get(currentQuestions).getAnswer4());
                     dans.setBackgroundResource(R.color.green);
                     dans.setTextColor(getResources().getColor(R.color.card_background));
                 } else {
@@ -234,6 +241,7 @@ public class SinaqTest extends AppCompatActivity {
                     Intent intent = new Intent(SinaqTest.this, ResultActivity.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
+                    intent.putStringArrayListExtra("correctAnswersList", (ArrayList<String>) correctAnswersList);
                     startActivity(intent);
                     finish();
                 }
@@ -254,6 +262,7 @@ public class SinaqTest extends AppCompatActivity {
             Intent intent = new Intent(SinaqTest.this, ResultActivity.class);
             intent.putExtra("correct", correct);
             intent.putExtra("wrong", wrong);
+            intent.putStringArrayListExtra("correctAnswersList", (ArrayList<String>) correctAnswersList);
             startActivity(intent);
             finish();
         }
@@ -295,17 +304,7 @@ public class SinaqTest extends AppCompatActivity {
     }
 
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        MusicService.resumeMusic();
-    }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        MusicService.pauseMusic();
-    }
 
     private void loadAllQuestions() {
         quesitionsItems = new ArrayList<>();
